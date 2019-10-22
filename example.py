@@ -3,7 +3,7 @@
 import os, sys, time
 import logging
 sys.dont_write_bytecode = True
-from class_TimedRotatingFileHandler import TimedRotatingFileHandler
+from TimedRotatingFileHandler import TimedRotatingFileHandler
 
 LOG_PATH = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'LOGS_example')
 if not os.path.exists(LOG_PATH):
